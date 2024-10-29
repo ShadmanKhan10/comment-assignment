@@ -62,7 +62,7 @@ This project is a real-time comments system using Next.js (front-end) and Node.j
      DB_HOST=localhost
      DB_USER=your_mysql_username
      DB_PASSWORD=your_mysql_password
-     DB_NAME=comments_system
+     DB_NAME=comments_db
      ```
 
 ## Usage
