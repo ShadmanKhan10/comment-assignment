@@ -1,6 +1,6 @@
 # Comments System with User Authentication
 
-This project is a real-time comments system using Next.js (front-end) and Node.js (back-end). It allows users to log in with a username, post comments, and see comments update in real-time through Socket.IO. Comments are stored in MySQL, with a responsive UI styled by Material UI.
+This project features a real-time commenting system built with Next.js for the front-end and Node.js for the back-end. It enables users to log in using a username, submit comments, and view updates in real-time via Socket.IO. Comments are stored in a MySQL database, and the user interface is designed to be responsive, utilizing Material UI for styling.
 
 ## Features
 
