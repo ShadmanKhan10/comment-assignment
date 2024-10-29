@@ -1,10 +1,10 @@
-# Real-Time Comments System with User Authentication
+# Comments System with User Authentication
 
 This project is a real-time comments system using Next.js (front-end) and Node.js (back-end). It allows users to log in with a username, post comments, and see comments update in real-time through Socket.IO. Comments are stored in MySQL, with a responsive UI styled by Material UI.
 
 ## Features
 
-- **Login** with username (no password)
+- **Login** with username
 - **Real-Time Comments**: All comments appear live across users’ screens
 - **Responsive Design** with Material UI
 
@@ -44,8 +44,8 @@ This project is a real-time comments system using Next.js (front-end) and Node.j
 3. **MySQL Database Setup**:
 
    ```sql
-   CREATE DATABASE comments_app;
-   USE comments_app;
+   CREATE DATABASE comments_db;
+   USE comments_db;
    CREATE TABLE comments (
      id INT AUTO_INCREMENT PRIMARY KEY,
      username VARCHAR(255),
@@ -55,10 +55,7 @@ This project is a real-time comments system using Next.js (front-end) and Node.j
    ```
 
 4. **Environment Variables**:
-   - **Front-End** (`.env.local`):
-     ```plaintext
-     NEXT_PUBLIC_API_URL=http://localhost:5000
-     ```
+
    - **Back-End** (`.env`):
      ```plaintext
      PORT=5000
